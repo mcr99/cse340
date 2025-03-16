@@ -174,7 +174,15 @@ nav ul li:hover {
 
 /* adjustments */
 
-@media (min-width: 340px) {
+@media (max-width: 374px) {
+
+  #car-info h2 {
+    font-size:larger;
+  }
+
+  #main-img{
+    grid-template-columns: 1fr 1fr;
+  }
   #flux img , #flame img , #bumper img, #hub img {
     padding-left: 25%;
     padding-right: 25%;
@@ -197,6 +205,14 @@ nav ul li:hover {
   #hub img{
     padding-top: 10%;
     padding-bottom: 5%;
+  }
+
+  #bumper h3{
+    font-size: medium;
+  }
+
+  #flux h3 {
+    font-size:medium;
   }
 }
 
