@@ -174,7 +174,7 @@ nav ul li:hover {
 
 /* adjustments */
 
-@media (max-width: 374px) {
+@media (max-width: 376px) {
 
   #car-info h2 {
     font-size:larger;
@@ -216,7 +216,7 @@ nav ul li:hover {
   }
 }
 
-@media (min-width: 375px) {
+@media (max-width: 500px) {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -228,6 +228,10 @@ header {
 #tools{
   padding: 15px 10px;
   }
+
+#car-info h2 {
+  font-size:larger;
+}
 
 #flux img {
   padding-top: 10%;
@@ -258,7 +262,7 @@ header {
 }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   #flux img , #flame img , #bumper img, #hub img {
     padding-left: 35%;
     padding-right: 35%;
